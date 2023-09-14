@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* 
+*{
+    background-image: url(multimedia/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+.nota a{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+}
+.nota p{
+    text-align: left;
+    text-indent: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: serif;
+}
+
+.nota h2{
+    font-size: 40px;
+    height: 100%;
+    width: auto;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+.nota img{
+    max-width: 80%;
+    height: auto;
+}
+.imagencentrada{
+    display: block;
+    margin: 0 auto;
+}
+
+* h1{
+    height:100%;
+    width: 100%;
+    background-image: url(multimedia/azul.png);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 65px;
+    color:aliceblue;
+}
+.menu_{
+    text-align: Center;
+    background-color: black;
+}
+
+ .menu_ a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align:center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:20px ;
+    margin-right: 10px;
+}
+.menu_ a:hover{
+    color: burlywood;
+}
+.jugada h2{
+    font-size: 50px;
+    text-align: center;
+    font-family:serif;
+}
+.jugada video{
+    max-width: 80%;
+    height: auto;
+}
+.tabla{
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.jugada h3{
+    margin: 10px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+footer{
+    background-color: black;
+    color:#fff;
+    text-align: center;
+    font-size: 35px;
+}
+footer p{
+    margin bottom: 25px;
+}
+.redes a{
+    font-size: 50px;
+    color: blue;
+    text-decoration: none;
+}
+.redes i{
+    letter-spacing: 20px;
+}
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    color: #fff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    box-shadow: 0 0 5px #fff;
+}
+.tabla h2{
+    font-family: sans-serif;
+    text-align: center;
+}
+.tabla div{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th, td{
+    padding:10px;
+    border: 1px solid #ddd;
+}
+thead{
+    background-color: rgb(202, 202, 199);
+}
+.t_agenda {
+    text-align: left;
+    border-top: 20px;
+}
+.t_agenda thead{
+    background-color: rgb(240, 251, 255);
+    color: rgb(15, 90, 253);
+}
+.D_agenda{
+  margin-top: 20px;
+}
