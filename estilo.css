@@ -35,7 +35,7 @@ padding-bottom: 15px;
     text-align: right;
     color: black;
 }
-.nota p{
+.container p{
     text-align: left;
     text-indent: 20px;
     margin-left: 20px;
@@ -43,7 +43,7 @@ padding-bottom: 15px;
     font-family: serif;
 }
 
-.nota h2{
+.container h1{
     font-size: 40px;
     height: 100%;
     width: auto;
