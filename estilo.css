@@ -168,3 +168,7 @@ thead{
 .D_agenda{
   margin-top: 20px;
 }
+.mi-columna{
+    background-color: #c3c3c3; /* Cambia el color de fondo de toda la fila a amarillo */
+    color: #000; /* Cambia el color del texto de toda la fila a negro */
+  }
