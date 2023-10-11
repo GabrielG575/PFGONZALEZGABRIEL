@@ -1,0 +1,19 @@
+//formato y caracteristicas de las tablas
+.tabla{
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    h2{
+        font-family: sans-serif;
+        text-align: center;
+    }
+    div{
+        background-color: white;
+        text-align: left;
+        border-collapse: collapse;
+        flex-direction: column;
+        border: 2px solid #ccc;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}

@@ -1,0 +1,14 @@
+//caracteristicas de la flecha para subir 
+.subir{
+    height: $tamaño2;
+    width: $tamaño2;
+    background-color: $color1;
+    color: $color2;
+    position: fixed;
+    right: $tamaño2;
+    bottom: $tamaño2;
+    text-align: center;
+    line-height: $tamaño2;
+    font-size: 30px;
+    box-shadow: 0 0 5px $color2;
+}
